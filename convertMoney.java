@@ -14,5 +14,11 @@ public class convertMoney {
         Boolean lanjutkan = true;
         String jawab;
         double value;
+
+        System.out.println("selamat datang di konversi uang");
+        System.out.println("code a = dollar");
+        System.out.println("code b = yen ");
+        System.out.println("code c = euro");
+        System.out.println("masukkan jumlah uang Rp yang ingin di konversi :");
     }
 }
