@@ -21,6 +21,9 @@ public class convertMoney {
             System.out.println("code b = yen ");
             System.out.println("code c = euro");
             System.out.println("masukkan jumlah uang Rp yang ingin di konversi :");
+            a = inputUser.nextFloat();
+            System.out.println("masukkan code yang ingin di konversi : ");
+            b = inputUser.next().charAt(0);
         }
 
     }
