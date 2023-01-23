@@ -24,6 +24,22 @@ public class convertMoney {
             a = inputUser.nextFloat();
             System.out.println("masukkan code yang ingin di konversi : ");
             b = inputUser.next().charAt(0);
+            switch (b) {
+                case 'a':
+                    value = a * dollar;
+                    System.out.println("Hasil converter Rp " + a + " ke dollar : " + value);
+                    break;
+                case 'b' :
+                    value = a * yen;
+                    System.out.println("Hasil converter Rp " + a + " ke yen : " + value);
+                    break;
+                case 'c':
+                    value = a * euro;
+                    System.out.println("Hasil converter Rp " + a + " ke euro : " + value);
+                    break;
+                default :
+                    System.err.println("code tidak ditemukan ");
+            }
         }
 
     }
