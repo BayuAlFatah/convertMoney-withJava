@@ -39,7 +39,11 @@ public class convertMoney {
                     break;
                 default :
                     System.err.println("code tidak ditemukan ");
+
             }
+            System.out.println("\n apakah anda ingin melanjutkan program? y/n");
+            jawab = inputUser.next();
+            lanjutkan = jawab.equalsIgnoreCase("y");
         }
 
     }
