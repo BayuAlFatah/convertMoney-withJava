@@ -45,6 +45,9 @@ public class convertMoney {
             jawab = inputUser.next();
             lanjutkan = jawab.equalsIgnoreCase("y");
         }
+        hasil++;
+        System.out.println("anda sudah menggunakan conversi uang sebanyak : " + hasil);
+        System.out.println("Terima Kasih");
 
     }
 }
